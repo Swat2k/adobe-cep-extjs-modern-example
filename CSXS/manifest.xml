@@ -37,16 +37,16 @@
           <Menu>Test Plugin</Menu>
           <Geometry>
             <Size>
-              <Height>800</Height>
-              <Width>600</Width>
+              <Height>1024</Height>
+              <Width>768</Width>
             </Size>
             <MinSize>
-              <Height>800</Height>
-              <Width>600</Width>
+              <Height>1024</Height>
+              <Width>768</Width>
             </MinSize>
             <MaxSize>
-              <Height>800</Height>
-              <Width>600</Width>
+              <Height>1024</Height>
+              <Width>768</Width>
             </MaxSize>
           </Geometry>
           <Icons />
