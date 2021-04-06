@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ExtensionList>
+  <Extension Id="com.swat2k.adobe.panel">
+    <HostList>
+      <Host Name="PHXS" Port="8017" />
+      <Host Name="PHSP" Port="8018" />
+      <Host Name="ILST" Port="8019" />
+    </HostList>
+  </Extension>
+</ExtensionList>

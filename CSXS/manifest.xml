@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ExtensionManifest ExtensionBundleId="com.swat2k.adobe" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExtensionList>
+    <Extension Id="com.swat2k.adobe.panel" Version="1.0.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+			<Host Name="PHXS" Version="20.0"/>
+			<Host Name="PHSP" Version="20.0"/>
+			<Host Name="ILST" Version="23.0"/>
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="7.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.swat2k.adobe.panel">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./client/index.html</MainPath>
+          <CEFCommandLine>
+              <Parameter>--allow-file-access</Parameter>
+              <Parameter>--allow-file-access-from-files</Parameter>
+              <Parameter>--persist-session-cookies</Parameter>
+              <Parameter>--enable-nodejs</Parameter>
+              <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Test Plugin</Menu>
+          <Geometry>
+            <Size>
+              <Height>800</Height>
+              <Width>600</Width>
+            </Size>
+            <MinSize>
+              <Height>800</Height>
+              <Width>600</Width>
+            </MinSize>
+            <MaxSize>
+              <Height>800</Height>
+              <Width>600</Width>
+            </MaxSize>
+          </Geometry>
+          <Icons />
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
